@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Cheatsheet</title>
+    <!--External CSS-->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+    <!--Internal CSS-->
+   <!--
+   <style type="text/css">
+        h1{
+            color:blue;
+        }
+    </style>
+    -->
+</head>
+<body>
+    <!--In-line CSS: typically bad practice-->
+    <!-- <h1 style="color:red">hello world</h1> -->
+    <div class="container">
+        <div class="box-1">
+        <h1>Hello World</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Suscipit aperiam inventore debitis illum sint vel id quam illo iste, molestias sed, 
+                odit blanditiis excepturi nesciunt itaque laborum adipisci, corporis harum!
+            </p>
+        </div>
+        <div class="box-2">
+            <h1>goodbye World</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Suscipit aperiam inventore debitis illum sint vel id quam illo iste, molestias sed, 
+                    odit blanditiis excepturi nesciunt itaque laborum adipisci, corporis harum!
+                </p>
+        </div>
+        <div class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">Category One</a></li>
+                <li><a href="#">Category Two</a></li>
+                <li><a href="#">Category Three</a></li>
+            </ul>
+        </div>
+
+        <form class="my-form">
+            <div class="form-group">
+                <label>Name: </label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-group">
+                <label>Email: </label>
+                <input type="text" name="email">
+            </div>
+            <div class="form-group">
+                <label>Message: </label>
+                <textarea name="message"></textarea>
+            </div>
+            <input class="button" type="submit" value="Submit" name="">
+        </form>
+        <!--These blocks are considered "floating" as they arent aligned to margin-->
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Expedita fugiat totam porro, veniam tempore a magni praesentium et maxime assumenda provident 
+                recusandae vero? Nobis ex, dolores alias necessitatibus voluptatem provident.
+            </p>
+        </div>
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Expedita fugiat totam porro, veniam tempore a magni praesentium et maxime assumenda provident 
+                recusandae vero? Nobis ex, dolores alias necessitatibus voluptatem provident.
+            </p>
+        </div>
+        <div class="block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Expedita fugiat totam porro, veniam tempore a magni praesentium et maxime assumenda provident 
+                recusandae vero? Nobis ex, dolores alias necessitatibus voluptatem provident.
+            </p>
+        </div>
+        <!--Upon using floats, you need to clear them otherwise overlaps may occur.-->
+        <div class="clr">
+        </div>
+
+        <div id="main-block">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Expedita fugiat totam porro, veniam tempore a magni praesentium et maxime assumenda provident 
+                recusandae vero? Nobis ex, dolores alias necessitatibus voluptatem provident.
+            </p>
+        </div>
+
+        <div id="sidebar">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Expedita fugiat totam porro, veniam tempore a magni praesentium et maxime assumenda provident 
+                recusandae vero? Nobis ex, dolores alias necessitatibus voluptatem provident.
+            </p>
+        </div>
+        
+        <div class="clr"></div>
+
+        <div class="p-box">
+            <h1>Hello</h1>
+            <h2>goodbye</h2>
+        </div>
+
+        <!--Pseudo-classes-->
+        <ul class="my-list">
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ul>
+    </div> <!--Container end-->
+
+    <a class="fix-me button" href="">Hello</a>
+
+    <div style="margin-top:500px;"></div>
+</body>
+</html>
